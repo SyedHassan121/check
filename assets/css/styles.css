@@ -245,6 +245,13 @@ footer h4{
     .ul-controller{
         display: block;
     }
+    .foot-text{
+        margin: 180px;
+        
+    }
+    .primary-ul li{
+        text-align: center;
+    }
     .main-top-ul .first-li {
         text-align: center;
         padding-left: 40px;
@@ -256,17 +263,18 @@ footer h4{
         display: block;
         
     }
+    .main-img img{
+        margin-left: 100px;
+    }
+   
     main .container{
-        width: 100%;
+        width: 1000px;
         height: 730px;
-       
+        text-align: center;
         background-color:  #edf7fa;
     }
-    .inner-container{
-        margin-top: 0px;
-        width: 100%;    
-        
-    }
+  
+    
     .inner-container h4{
         margin: 0;
         padding: 0;
@@ -280,10 +288,15 @@ footer h4{
     }
     .card-a img,.card-b img,.card-c img{
         padding-left: 14px;
+        
     }
     .longest-text p{
         
         width: 280px;
+    }
+    .ul-a h1 p{
+        width: 100%;
+        
     }
  }
 
