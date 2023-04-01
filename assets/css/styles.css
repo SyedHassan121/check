@@ -25,6 +25,7 @@ html{
 
 
 }
+
 .ul-controller{
     display: flex;
     justify-content: space-between;
@@ -191,3 +192,74 @@ footer h4{
     display: flex;
     
 }
+
+ .links-collector{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+ }
+ .fb img,.twitter img,.insta img,.linkdin img{
+    padding-left: 18px;
+    
+
+    width: 30px;
+    
+}
+.ending-text p{
+    font: bold;
+    font-size: small;
+    text-align: center;
+   
+   
+    
+}
+.ending-text{
+    justify-content: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { ... }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { ... }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { ... }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { ... }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
