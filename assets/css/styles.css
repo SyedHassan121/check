@@ -9,6 +9,7 @@
     text-decoration: none;
     color: black;
 }
+
 html{
     font-family: 'Heebo', sans-serif;
 }
@@ -34,15 +35,22 @@ html{
     display: flex;
     justify-content: space-between;
 }
+.second-navbar img{
+    width: 30px;
+    justify-content: end;
+}
+.second-navbar{
+    display: none;
+}
+.second-navbar ul{
+  text-align: end;
+  
+}
 .primary-ul{
     width: 600px;
      
     margin: 50px;
     padding: 20px;
-    
-    
-    
-    
 }
 .head-text h1{
     
@@ -246,14 +254,14 @@ footer h4{
         display: block;
     }
     .foot-text{
-        margin: 180px;
+       margin-left: 180px;
         
     }
     .primary-ul li{
         text-align: center;
     }
     .main-top-ul .first-li {
-        text-align: center;
+        
         padding-left: 40px;
     }
     .main-top-ul .second-li {
@@ -265,6 +273,7 @@ footer h4{
     }
     .main-img img{
         margin-left: 100px;
+        margin-top: 0%;
     }
    
     main .container{
@@ -272,6 +281,13 @@ footer h4{
         height: 730px;
         text-align: center;
         background-color:  #edf7fa;
+    }
+    .navbar{
+        display: none;
+    }
+   
+    .secondary-navbar li{
+        text-align: end;
     }
   
     
@@ -302,6 +318,69 @@ footer h4{
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
+    .ul-controller{
+        display: block;
+
+    }
+    .primary-ul{
+        text-align: center;
+    }
+    .foot-text {
+        margin-left: 200px;
+       
+    }
+    .secondary-ul .main-img{
+       margin-left: 200px;
+    }
+    
+    .first-li li h2 a{
+        text-align: center;
+        padding-left: 160px;
+       
+    }
+    .main-top-ul .second-li {
+        display: none;
+    }
+    .main-scondary-ul{
+        display: block;
+        
+        
+    }
+    .ul-a{
+        background-color: antiquewhite;
+        margin: 0% auto;
+    }
+    .ul-b{
+        background-color: antiquewhite;
+        margin: 10px auto;
+    }
+    main .container{
+        width: 1000px;
+        height: 730px;
+        text-align: center;
+        background-color:  #edf7fa;
+    }
+    .card-a,.card-b,.card-c{
+        
+        padding: 8px;
+        
+        display: block;
+    }
+    footer .inner-container h4{
+        text-align: center;
+    }
+    .card-a,.card-b,.card-c{
+        text-align: center;
+        
+    }
+    .secondary-ul{
+        text-align: left;
+    }
+    .longest-text p{
+        
+        width: 380px;
+    }
+
 
 
  }
