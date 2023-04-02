@@ -325,12 +325,15 @@ footer h4{
     }
     .head-text h1,.main-text p{
         text-align: left;
-        width: 450px;
+       
         
     }
     .head-text h1{
         width: 300px;
         
+    }
+    .main-text p{
+        width: 350px;
     }
     
     .foot-text {
@@ -338,7 +341,7 @@ footer h4{
        
     }
     .secondary-ul .main-img{
-       margin-left: 10px;
+       margin-left: 4px;
     }
     
     .first-li li h2 a{
@@ -357,14 +360,18 @@ footer h4{
     .ul-a{
         background-color: antiquewhite;
        margin-left: 20px;
+       width: 450px;
+       height: 380px;
     }
     .ul-b{
+        margin-top: 20px;
         background-color: antiquewhite;
         margin-left: 20px ;
+        width: 450px;
     }
     main .container{
         width: 1000px;
-        height: 730px;
+        height: 800px;
       text-align: left;
         background-color:  #edf7fa;
     }
@@ -374,12 +381,13 @@ footer h4{
         
         display: block;
     }
+   
     .econdary-ul{
         text-align: left;
     }
     .longest-text p{
         
-        width: 380px;
+        width: 300px;
     }
 
 
