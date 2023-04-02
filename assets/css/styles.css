@@ -320,15 +320,19 @@ footer h4{
 @media (max-width: 767.98px) { 
     .ul-controller{
         display: block;
+        text-align: left
 
+    }
+    .head-text h1,.main-text p{
+        text-align: left;
     }
     
     .foot-text {
-        margin-left: 8px;
+        margin-left: 1px;
        
     }
     .secondary-ul .main-img{
-       margin-left: 70px;
+       margin-left: 10px;
     }
     
     .first-li li h2 a{
