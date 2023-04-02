@@ -322,20 +322,18 @@ footer h4{
         display: block;
 
     }
-    .primary-ul{
-        text-align: center;
-    }
+    
     .foot-text {
-        margin-left: 200px;
+        margin-left: 8px;
        
     }
     .secondary-ul .main-img{
-       margin-left: 200px;
+       margin-left: 70px;
     }
     
     .first-li li h2 a{
-        text-align: center;
-        padding-left: 160px;
+        
+        padding-left: 16px;
        
     }
     .main-top-ul .second-li {
@@ -348,16 +346,16 @@ footer h4{
     }
     .ul-a{
         background-color: antiquewhite;
-        margin: 0% auto;
+       margin-left: 20px;
     }
     .ul-b{
         background-color: antiquewhite;
-        margin: 10px auto;
+        margin-left: 20px ;
     }
     main .container{
         width: 1000px;
         height: 730px;
-        text-align: center;
+      text-align: left;
         background-color:  #edf7fa;
     }
     .card-a,.card-b,.card-c{
@@ -366,14 +364,7 @@ footer h4{
         
         display: block;
     }
-    footer .inner-container h4{
-        text-align: center;
-    }
-    .card-a,.card-b,.card-c{
-        text-align: center;
-        
-    }
-    .secondary-ul{
+    .econdary-ul{
         text-align: left;
     }
     .longest-text p{
@@ -387,68 +378,7 @@ footer h4{
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-    .ul-controller{
-        display: block;
-
-    }
-    .primary-ul{
-        text-align: center;
-    }
-    .foot-text {
-        margin-left: 200px;
-       
-    }
-    .secondary-ul .main-img{
-       margin-left: 200px;
-    }
     
-    .first-li li h2 a{
-        text-align: center;
-        padding-left: 160px;
-       
-    }
-    .main-top-ul .second-li {
-        display: none;
-    }
-    .main-scondary-ul{
-        display: block;
-        
-        
-    }
-    .ul-a{
-        background-color: antiquewhite;
-        margin: 0% auto;
-    }
-    .ul-b{
-        background-color: antiquewhite;
-        margin: 10px auto;
-    }
-    main .container{
-        width: 1000px;
-        height: 730px;
-        text-align: center;
-        background-color:  #edf7fa;
-    }
-    .card-a,.card-b,.card-c{
-        
-        padding: 8px;
-        
-        display: block;
-    }
-    footer .inner-container h4{
-        text-align: center;
-    }
-    .card-a,.card-b,.card-c{
-        text-align: center;
-        
-    }
-    .secondary-ul{
-        text-align: left;
-    }
-    .longest-text p{
-        
-        width: 380px;
-    }
 
 }
 
