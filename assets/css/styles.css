@@ -333,7 +333,7 @@ footer h4{
         
     }
     .main-text p{
-        width: 350px;
+        width: 280px;
     }
     
     .foot-text {
@@ -357,10 +357,14 @@ footer h4{
         
         
     }
+    .span-controller span{
+        padding-left: 0px;
+        padding: 0;
+    }
     .ul-a{
         background-color: antiquewhite;
        margin-left: 20px;
-       width: 450px;
+       width: 350px;
        height: 380px;
     }
     .ul-b{
