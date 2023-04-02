@@ -252,17 +252,34 @@ footer h4{
 @media (max-width: 575.98px) { 
     .ul-controller{
         display: block;
+        text-align: left
+
     }
-    .foot-text{
-       margin-left: 180px;
+    .head-text h1,.main-text p{
+        text-align: left;
+       
         
     }
-    .primary-ul li{
-        text-align: center;
-    }
-    .main-top-ul .first-li {
+    .head-text h1{
+        width: 300px;
         
-        padding-left: 40px;
+    }
+    .main-text p{
+        width: 280px;
+    }
+    
+    .foot-text {
+        margin-left: 1px;
+       
+    }
+    .secondary-ul .main-img{
+       margin-left: 4px;
+    }
+    
+    .first-li li h2 a{
+        
+        padding-left: 16px;
+       
     }
     .main-top-ul .second-li {
         display: none;
@@ -270,31 +287,29 @@ footer h4{
     .main-scondary-ul{
         display: block;
         
+        
     }
-    .main-img img{
-        margin-left: 100px;
-        margin-top: 0%;
+    .span-controller span{
+        padding-left: 0px;
+        padding: 0;
     }
-   
+    .ul-a{
+        background-color: antiquewhite;
+       margin-left: 20px;
+       width: 350px;
+       height: 380px;
+    }
+    .ul-b{
+        margin-top: 20px;
+        background-color: antiquewhite;
+        margin-left: 20px ;
+        width: 450px;
+    }
     main .container{
         width: 1000px;
-        height: 730px;
-        text-align: center;
+        height: 800px;
+      text-align: left;
         background-color:  #edf7fa;
-    }
-    .navbar{
-        display: none;
-    }
-   
-    .secondary-navbar li{
-        text-align: end;
-    }
-  
-    
-    .inner-container h4{
-        margin: 0;
-        padding: 0;
-        text-align: center;
     }
     .card-a,.card-b,.card-c{
         
@@ -302,17 +317,13 @@ footer h4{
         
         display: block;
     }
-    .card-a img,.card-b img,.card-c img{
-        padding-left: 14px;
-        
+   
+    .econdary-ul{
+        text-align: left;
     }
     .longest-text p{
         
-        width: 280px;
-    }
-    .ul-a h1 p{
-        width: 100%;
-        
+        width: 300px;
     }
  }
 
