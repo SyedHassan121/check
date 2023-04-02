@@ -325,6 +325,12 @@ footer h4{
     }
     .head-text h1,.main-text p{
         text-align: left;
+        width: 450px;
+        
+    }
+    .head-text h1{
+        width: 300px;
+        
     }
     
     .foot-text {
