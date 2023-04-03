@@ -347,18 +347,20 @@ footer h4{
     }
     .head-text h1{
         width: 300px;
+        text-align: center;
         
     }
     .main-text p{
         width: 280px;
+        text-align: center;
     }
     
     .foot-text {
-        margin-left: 1px;
+        margin-left: 40px;
        
     }
     .secondary-ul .main-img{
-       margin-left: 28px;
+       margin-left: 50px;
     }
     
     .first-li li h2 a{
