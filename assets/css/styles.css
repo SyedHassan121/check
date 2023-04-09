@@ -245,6 +245,118 @@ footer h4{
 
 
 
+/* works-page */
+
+.works-navbar ul{
+    display: flex;
+    justify-content: right;
+
+
+}
+
+
+.works-navbar ul h3{
+    font-weight: 800;
+        padding: 24px;
+    font: bold;
+ 
+ 
+ }
+ .works-navbar ul h3 a:hover{
+    color: #ff6464;
+    transition: 0.2s;
+    
+ 
+ 
+ }
+ .highlighted-text{
+    padding: 80px;
+ }
+ .highlighted-text h1 a:hover{
+    color: #ff6464;
+    transition: 0.3s;
+ }
+ .works-card-a,.works-card-b,.works-card-c,.works-card-d{
+    display: flex;
+    margin-left: 70px;
+    border-bottom: #ff6464;
+    padding-top: 40px;
+ }
+
+
+ /* blog css */
+
+ .blog-navbar ul{
+    display: flex;
+    justify-content: right;
+    padding: 40px;
+    padding-right: 60px;
+ }
+ .blog-navbar ul li{
+    padding-left: 80px;
+ }
+ .blog-navbar li h3 a:hover{
+    color: #ff6464;
+    transition: 0.2s;
+ }
+
+
+
+
+ /* cheking */
+ .main-heading{
+    padding: 40px;
+    padding-left: 70px;
+}
+.main-heading a:hover{
+    color: #ff6464;
+    transition: 0.2s;
+
+}
+.paragraph-a .top-text,.paragraph-b .top-text,.paragraph-c .top-text,.paragraph-d .top-text{
+ padding: 12px;
+ padding-left: 24px;
+}
+.top-text a:hover{
+    color: #ff6464;
+    transition: 0.2s;
+}
+.paragraph-a,.paragraph-b,.paragraph-c,.paragraph-d{
+    padding-left: 40px;
+}
+.paragraph-a .middle-text,.paragraph-b .middle-text,.paragraph-c .middle-text,.paragraph-d .middle-text{
+    padding: 12px;
+}
+.paragraph-a .bottom-text,.paragraph-b .bottom-text,.paragraph-c .bottom-text,.paragraph-d .bottom-text{
+    padding: 12px;
+}
+.paragraph-a .bottom-text p,.paragraph-b .bottom-text p,.paragraph-c .bottom-text p,.paragraph-d .bottom-text p{
+    padding-left: 16px;
+}
+.paragraph-a .middle-text span,.paragraph-b .middle-text span,.paragraph-c .middle-text span,.paragraph-d .middle-text span{
+    padding: 12px;
+}
+
+.paragraph-a .middle-text .transparent-text,.paragraph-b .middle-text .transparent-text,.paragraph-c .middle-text .transparent-text,.paragraph-d .middle-text .transparent-text{
+    color: rgb(140, 131, 131);
+}
+.line-container{
+    margin-top: 20px;
+    width: 800px;
+    padding: 1px;
+    background-color: rgb(183, 171, 171);
+ 
+}
+.main-heading a:hover{
+    color: #ff6464;
+}
+.middle-text span{
+font-weight: 400;
+}
+
+
+
+
 
 
 
@@ -337,7 +449,8 @@ footer h4{
 @media (max-width: 767.98px) { 
     .ul-controller{
         display: block;
-        text-align: left
+        text-align: left;
+        
 
     }
     .head-text h1,.main-text p{
@@ -437,11 +550,6 @@ footer h4{
 @media (max-width: 1399.98px) { 
 
  }
-
-
-
-
-
 
 
 
